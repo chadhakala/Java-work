@@ -27,6 +27,8 @@ public class MilesPerWeek {
                 double costOfGas = 3.959;  // cost per gallon
                 double rawGallonsMonth = dailyCommute * month / milesPerGallon;
 
+
+
                 System.out.printf("WESTERN_AMBER says, If you work 20 days out of the month you pay approx: $%1.2f%n", rawGallonsMonth * costOfGas);
 
             }
