@@ -15,34 +15,31 @@ public class PayWeekly {
         if  (hours <= 40 || hours > 0 ) {
 
             double gross = (wage * hours);
-            double tax = .9;
-            double taxedIncome = .1 * gross;
-            double netPay = tax * gross;
+            double tax = .1 * gross;
+            double netPay = gross - tax;
 
 
 
             System.out.printf("Your gross pay is: $%1.2f ", gross);
-            System.out.printf("Your taxed income is: $%1.2f ", taxedIncome);
+            System.out.printf("Your taxed income is: $%1.2f ", tax);
             System.out.printf("Your Weekly salary is: $%1.2f ", netPay);
 
         }
         else {
-            double gross = (wage * hours);
-            double tax = .1;
-            double taxed = tax * gross;
+            double grossStd = (wage * hours);
+            double taxed = .1 * grossStd;
 
 
             double oT = hours - 40;
-            double grossOt = hours - oT;
-            double weeklySalary = grossOt - taxed;
-            double otWage = (oT * 1.5) + gross;
+            double otWage = ((oT * 1.5) + grossStd);
+            double otNet = otWage - taxed;
 
 
 
 
             System.out.printf("Your gross pay is: $%1.2f ", otWage);
             System.out.printf("Your taxed income is: $%1.2f ", taxed);
-            System.out.printf("Your Weekly salary is: $%1.2f ", otWage);
+            System.out.printf("Your Weekly salary is: $%1.2f ", otNet);
 
 
 
