@@ -7,7 +7,7 @@ public class PayWeekly {
         Scanner keyboard = new Scanner(System.in);
 
 
-        System.out.println("please enter your weekly pay");
+        System.out.println("Hello, I will calculate your paycheck. Please enter your hourly pay");
         double wage = Double.parseDouble(keyboard.nextLine());
         System.out.println("how many hours do you work per week? Please provide whole number values.");
         double hours = Double.parseDouble(keyboard.nextLine());
@@ -15,13 +15,14 @@ public class PayWeekly {
         if  (hours <= 40 || hours > 0 ) {
 
             double gross = (wage * hours);
-            double tax = .1;
-            double grossPay = tax * gross;
-            double netPay = 0.9 * grossPay;
+            double tax = .9;
+            double taxedIncome = .1 * gross;
+            double netPay = tax * gross;
+
 
 
             System.out.printf("Your gross pay is: $%1.2f ", gross);
-            System.out.printf("Your taxed income is: $%1.2f ", grossPay);
+            System.out.printf("Your taxed income is: $%1.2f ", taxedIncome);
             System.out.printf("Your Weekly salary is: $%1.2f ", netPay);
 
         }
@@ -32,14 +33,16 @@ public class PayWeekly {
 
 
             double oT = hours - 40;
+            double grossOt = hours - oT;
+            double weeklySalary = grossOt - taxed;
             double otWage = (oT * 1.5) + gross;
-            double weeklySalary = otWage * .9;
 
 
 
-            System.out.printf("Your gross pay is: $%1.2f ", gross);
+
+            System.out.printf("Your gross pay is: $%1.2f ", otWage);
             System.out.printf("Your taxed income is: $%1.2f ", taxed);
-            System.out.printf("Your Weekly salary is: $%1.2f ", weeklySalary);
+            System.out.printf("Your Weekly salary is: $%1.2f ", otWage);
 
 
 
