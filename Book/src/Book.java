@@ -9,13 +9,13 @@ public class Book {
             this.genre = genre;
         }
 
-        public int getPageCount() {
+        public int getPageCount(){
             return pageCount;
         }
-        public String getAuthor() {
+        public String getAuthor(){
             return author;
         }
-        public String getGenre() {
+        public String getGenre(){
             return genre;
         }
 }
