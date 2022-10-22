@@ -1,35 +1,42 @@
 public class Vehicle {
     private String make;
-    private String color;
     private String model;
-    private Boolean odometer;
+    private String color;
+    private int odometer;
 
-
-    public Vehicle() {                                                                                                                                                                                                                                                                  */
+    public Vehicle(String make, String model, String color) {
         this.make = make;
-        this.color = color;
         this.model = model;
-        this.odometer = odometer;
+        setColor(color);
     }
-
-    public boolean drive(){
-    //if (int milesDriven <= gallons || kWH){
-        //return milesDriven * gallons;
 
     public String getMake() {
         return make;
     }
-    public String getColor() {
-        return make;
-    }
-    public String getModel(){
+
+    public String getModel() {
         return model;
     }
+
+    public String getColor() {
+        return color;
+    }
+
     public int getOdometer() {
         return odometer;
     }
-    public int setOdometer(int odometer); {
-            // if (boolean drive == 1);
 
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+
+    public void setOdometer() {
+        if (odometer < 0) {
+            this.odometer = 0;
+        } else {
+            this.odometer = odometer;
         }
+    }
 }
