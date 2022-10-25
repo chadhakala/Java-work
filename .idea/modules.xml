@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Book/Book.iml" filepath="$PROJECT_DIR$/Book/Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Investment/Investment.iml" filepath="$PROJECT_DIR$/Investment/Investment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-work.iml" filepath="$PROJECT_DIR$/.idea/Java-work.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LunarLander/LunarLander.iml" filepath="$PROJECT_DIR$/LunarLander/LunarLander.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MilesPerWeek/MilesPerWeek.iml" filepath="$PROJECT_DIR$/MilesPerWeek/MilesPerWeek.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PayWeekly/PayWeekly.iml" filepath="$PROJECT_DIR$/PayWeekly/PayWeekly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Plant/Plant.iml" filepath="$PROJECT_DIR$/Plant/Plant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project2/Project2.iml" filepath="$PROJECT_DIR$/Project2/Project2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectZero/ProjectZero.iml" filepath="$PROJECT_DIR$/ProjectZero/ProjectZero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RockPaperLizSizSpock/RockPaperLizSizSpock.iml" filepath="$PROJECT_DIR$/RockPaperLizSizSpock/RockPaperLizSizSpock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sandwich/Sandwich.iml" filepath="$PROJECT_DIR$/Sandwich/Sandwich.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cis1500-fall2022-lab2-chadhakala/cis1500-fall2022-lab2-chadhakala.iml" filepath="$PROJECT_DIR$/cis1500-fall2022-lab2-chadhakala/cis1500-fall2022-lab2-chadhakala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cis1500-fall2022-project1-chadhakala/cis1500-fall2022-project1-chadhakala.iml" filepath="$PROJECT_DIR$/cis1500-fall2022-project1-chadhakala/cis1500-fall2022-project1-chadhakala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pairOfDice/pairOfDice.iml" filepath="$PROJECT_DIR$/pairOfDice/pairOfDice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/succulent/succulent.iml" filepath="$PROJECT_DIR$/succulent/succulent.iml" />
+    </modules>
+  </component>
+</project>
