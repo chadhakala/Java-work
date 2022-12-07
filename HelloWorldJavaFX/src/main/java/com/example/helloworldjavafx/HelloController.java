@@ -1,5 +1,6 @@
 package com.example.helloworldjavafx;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
@@ -9,6 +10,10 @@ public class HelloController {
 
     @FXML
     protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+        welcomeText.setText("Hello World!");
+    }
+    @FXML
+    protected void onOtherButtonClick(ActionEvent actionEvent) {
+    welcomeText.setText("Oh no!, You Clicked the Button!");
     }
 }
