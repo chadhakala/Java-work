@@ -4,9 +4,6 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cis1500-fall2022-lab2-chadhakala" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cis1500-fall2022-project0-chadhakala" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cis1500-fall2022-project1-chadhakala" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cis1500-fall2022-project2-chadhakala" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/intro-to-github-chadhakala" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/octoRockNRoll" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cis1500-fall2022-project3-chadhakala" vcs="Git" />
   </component>
 </project>
