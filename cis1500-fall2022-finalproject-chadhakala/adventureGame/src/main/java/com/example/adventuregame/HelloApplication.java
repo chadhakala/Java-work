@@ -1,4 +1,4 @@
-package com.example.hellomtndew;
+package com.example.adventuregame;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

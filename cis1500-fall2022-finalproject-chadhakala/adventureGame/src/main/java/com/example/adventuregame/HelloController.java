@@ -1,4 +1,4 @@
-package com.example.hellomtndew;
+package com.example.adventuregame;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
