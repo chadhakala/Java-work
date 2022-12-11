@@ -1,4 +1,4 @@
-package com.example.adventuregame;
+package com.example.boragontrail;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
